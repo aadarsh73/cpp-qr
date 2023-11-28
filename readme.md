@@ -4,18 +4,32 @@ QR-Code Generator -> https://www.nayuki.io/page/qr-code-generator-library
 
 Tiny -PNG-Out -> https://www.nayuki.io/page/tiny-png-output
 
-To run it after cloning:
+---How to run--- 
 
-->mkdir build
+In WSL ubuntu for windows or in a Linux based system:
+
+->sudo apt-get update
+
+->sudo apt-get install cmake
+
+
+Go to the build folder:
 
 ->cd build
+
+
+To compile the code:
 
 ->cmake ..
 
 ->make all
 
-->src/qr-to-png
+
+To run the code:
+
+->cd src
+
+->./qr-to-png
 
 
-
-this will save the qr code of the data as png image
+This will create 4 png files with the qr codes of varying sizes
